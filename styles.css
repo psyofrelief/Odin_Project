@@ -10,8 +10,40 @@ margin: 0;
 
 body {
 font-family: "Roboto", sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 8px;
 }
 
 img {
-max-width: 150px;
+width: 150px;
 }
+
+.boxes {
+display: flex;
+justify-content: space-between;
+outline: 4px solid red;
+gap: 16px;
+margin: 0 auto;
+padding: 20px 50px;
+font-size: 14px;
+flex-wrap: wrap;
+}
+
+.box {
+outline: 4px solid green;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+width: 150px;
+padding: 4px 6px;
+align-items: center;
+margin: 0 auto;
+}
+
+
+
+
+
