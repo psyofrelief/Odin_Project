@@ -124,7 +124,7 @@ color: #E5E7EB;
 /* contains everything in the section */
 .boxes {
 display: flex;
-padding: 60px 320px;
+padding: 60px 0;
 font-size: 18px;
 flex-direction: column;
 text-align: center;
@@ -264,6 +264,7 @@ background-color: #1F2937;
 display: flex;
 justify-content: center;
 padding: 40px 0;
+margin: 0;
 }
 
 .footer div {
