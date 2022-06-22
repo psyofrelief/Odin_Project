@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 *,
 *::after,
 *::before {
@@ -13,35 +12,149 @@ font-family: "Roboto", sans-serif;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-padding: 8px;
+padding: 0;
 }
 
-img {
-width: 150px;
+
+/* NAV
+--------------------------------------------*/
+
+.navbar {
+background-color: #1F2937;
+color: #E5E7EB;
 }
 
-.boxes {
+.navbar .container {
 display: flex;
 justify-content: space-between;
-outline: 4px solid red;
+margin: 16px 155px;
+}
+
+ul {
+list-style: none;
+display: flex;
 gap: 16px;
-margin: 0 auto;
+}
+
+.logo {
+font-size: 24px;
+color: #F9FAF8;
+font-weight: 900;
+}
+
+
+/* HEADER
+---------------------------------------------*/
+
+.header {
+background-color: #1F2937;
+display: flex;
+color: #F9FAF8;
+padding: 75px 75px;
+justify-content: center;
+gap: 300px;
+align-items: center;
+}
+
+/* contains header text and button */
+.header .container {
+display: flex;
+flex-direction: column;
+max-width: 320px;
+gap: 8px;
+}
+
+.header button {
+max-width: 100px;
+padding: 8px 16px;
+color: #F9FAF8;
+background-color: #3882F6;
+border: 1px solid black;
+border-radius: 10px;
+font-weight: bold;
+margin-top: 8px;
+}
+
+.header button:hover {
+cursor: pointer;
+background-color: #164796;
+}
+
+.header img {
+max-height: 250px;
+}
+
+/* Welcome text H1 */
+.header .heading {
+font-size: 48px;
+color: #F9FAF8;
+font-weight: bolder
+}
+
+.header p {
+font-size: 18px;
+color: #E5E7EB;
+}
+
+
+
+/* BOXES
+---------------------------------------------*/
+
+/* contains everything in the section */
+.boxes {
+display: flex;
 padding: 20px 50px;
-font-size: 14px;
+font-size: 18px;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+/* contains boxes with text and image */
+.icons {
+display: flex;
+padding-top: 50px;
+gap: 40px;
 flex-wrap: wrap;
 }
 
+/* contains image and text */
 .box {
-outline: 4px solid green;
-align-items: center;
-justify-content: center;
 display: flex;
 flex-direction: column;
-width: 150px;
+width: 200px;
 padding: 4px 6px;
-align-items: center;
-margin: 0 auto;
+margin: 0;
 }
+
+.box img {
+border: 4px solid #3882F6;
+border-radius: 16px;
+padding: 4px;
+max-width: 200px;
+}
+
+/* text in box */
+.box p {
+margin-top: 8px;
+color:;
+}
+
+/* main text in boxes */
+h2 {
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
+}
+
+
+
+
+
+
+
 
 
 
