@@ -11,7 +11,12 @@ body {
 font-family: "Roboto", sans-serif;
 display: flex;
 flex-direction: column;
+}
+
+.main {
+display: flex;
 justify-content: space-between;
+flex-direction: column;
 }
 
 
@@ -20,7 +25,6 @@ justify-content: space-between;
 
 .navbar {
 background-color: #1F2937;
-color: #E5E7EB;
 }
 
 .navbar .container {
@@ -43,9 +47,19 @@ color: #F9FAF8;
 font-weight: 900;
 }
 
+a {
+text-decoration: none;
+color: #E5E7EB;
+}
+
+a:hover {
+cursor: pointer;
+color: #a7a7a7;
+}
+
 
 /* HEADER
----------------------------------------------*/
+-------------------------------------------- */
 
 .header {
 background-color: #1F2937;
@@ -54,7 +68,7 @@ color: #F9FAF8;
 
 .header .container {
 display: flex;
-margin: 16px 155px;
+margin: 60px 155px;
 justify-content: center;
 gap: 182px;
 }
@@ -87,6 +101,7 @@ background-color: #164796;
 max-height: 250px;
 margin: 0;
 padding: 0;
+align-self: center;
 }
 
 /* Welcome text H1 */
@@ -104,12 +119,12 @@ color: #E5E7EB;
 
 
 /* BOXES
----------------------------------------------*/
+-------------------------------------------- */
 
 /* contains everything in the section */
 .boxes {
 display: flex;
-padding: 20px 50px;
+padding: 60px 320px;
 font-size: 18px;
 flex-direction: column;
 text-align: center;
@@ -152,6 +167,59 @@ font-size: 36px;
 font-weight: 900;
 color: #1F2937;
 }
+
+
+
+/* QUOTE
+-------------------------------------------- */
+
+.quote {
+background-color: #E5E7EB;
+justify-content: center;
+display: flex;
+}
+
+/* contains quote and author text */
+.quote .container {
+display: flex;
+flex-direction: column;
+margin: 100px auto;
+color: #1F2937;
+}
+
+.quote p {
+font-size: 36px;
+font-weight: lighter;
+font-style: italic;
+min-width: 600px;
+max-width: 1000px;
+}
+
+.author {
+align-self: flex-end;
+font-size: 18px;
+font-weight: bolder;
+min-width: 190px;
+}
+
+
+
+/* CALL TO ACTION
+-------------------------------------------- */
+
+.call .container {
+background-color: #3882F6;
+color: #F9FAF8;
+margin: 80px auto;
+border-radius: 8px;
+padding: 32px 150px;
+max-width: 1000px;
+}
+
+
+
+
+
 
 
 
