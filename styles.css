@@ -207,6 +207,7 @@ min-width: 200px;
 /* CALL TO ACTION
 -------------------------------------------- */
 
+/* contains text and button */
 .call .container {
 background-color: #3882F6;
 color: #F9FAF8;
@@ -218,18 +219,21 @@ display: flex;
 justify-content: space-between;
 }
 
+/* call to action heading */
 h3 {
 font-size: 24px;
 font-weight: 900;
 color: #F9FAF8;
 }
 
+/* text beneath call heading */
 .text div {
 font-size: 18px;
 color: #E5E7EB;
 font-weight: lighter;
 }
 
+/* contains button */
 .button  {
 display: flex;
 align-items: center;
@@ -245,6 +249,22 @@ font-size: 18px;
 font-weight: 900;
 }
 
+
+
+/* FOOTER
+-------------------------------------------- */
+
+.footer {
+background-color: #1F2937;
+display: flex;
+justify-content: center;
+padding: 40px 0;
+}
+
+.footer div {
+color: #E5E7EB;
+font-size: 18px;
+}
 
 
 
