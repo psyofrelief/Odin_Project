@@ -57,7 +57,7 @@ align-items: center;
 }
 
 /* contains header text and button */
-.header .container {
+.main-text {
 display: flex;
 flex-direction: column;
 max-width: 320px;
