@@ -249,6 +249,11 @@ font-size: 18px;
 font-weight: 900;
 }
 
+.button button:hover {
+background-color: #2f6fd5;
+cursor: pointer;
+}
+
 
 
 /* FOOTER
